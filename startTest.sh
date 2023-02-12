@@ -2,7 +2,7 @@
 #***
 #
 #@Author: 
-#	UlizkoIM@intech.rshb.ru
+#	UlizkoIM@
 #
 #***
 
@@ -74,4 +74,4 @@ echo ""
 sleep 2
 
 #запускаем тест с рассчитанными параметрами
-JVM_ARGS="-Xms512m -Xmx4096m" /u01/jmeter2/bin/Scripts/Scripts_Ulizko/apache-jmeter-5.4.3/bin/jmeter.sh -JP_TargetRate=$P_TargetRate -JP_RampupTime=$P_RampupTime -JP_RampupStepsCount=$P_RampupStepsCount -JP_HoldTargetRateTime=$P_HoldTargetRateTime -n -t $testName
+JVM_ARGS="-Xms512m -Xmx4096m" /path-to/apache-jmeter-5.4.3/bin/jmeter.sh -JP_TargetRate=$P_TargetRate -JP_RampupTime=$P_RampupTime -JP_RampupStepsCount=$P_RampupStepsCount -JP_HoldTargetRateTime=$P_HoldTargetRateTime -n -t $testName
