@@ -1,0 +1,11 @@
+#Properties for Test Plan
+HOST,ms-settings.ru
+HOST_IKUL,auth.server.ru
+PROTOCOL,https
+LOGIN,mylogin
+PASSWORD,mypassword
+
+#InfluxDB
+INFLUX_HOST,10.0.0.60
+INFLUX_DB,DBOUL
+INFLUX_MEASUREMENT,MSettings
