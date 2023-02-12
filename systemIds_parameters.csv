@@ -1,4 +1,4 @@
 ID,PRODUCTS
 mobile,global
-ms-org-delegate-authority,products
-owb-plt-ms-authentication,mobile
+my-ms22-delegate,products
+my-ms11-auth,mobile
